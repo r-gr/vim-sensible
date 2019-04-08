@@ -67,7 +67,7 @@ if &shell =~# 'fish$' && (v:version < 704 || v:version == 704 && !has('patch276'
   set shell=/usr/bin/env\ bash
 endif
 
-set autoread
+"set autoread
 
 if &history < 1000
   set history=1000
